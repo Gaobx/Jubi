@@ -143,34 +143,6 @@ class Jubi(object):
 
 
 
-te = Jubi('3wq19-u2j4f-hvtjm-4pi1g-6ezde-nbrvk-eyh5y','Z!1q7-C,(kv-Ju36v-Fk]DQ-ea!*$-Kt*6E-{.C{b')
-print te.getAccount()
-
-	'''
-	
-
-"""
-account = Jubi('3wq19-u2j4f-hvtjm-4pi1g-6ezde-nbrvk-eyh5y','Z!1q7-C,(kv-Ju36v-Fk]DQ-ea!*$-Kt*6E-{.C{b')
-params = account.get_trade_list_params('0', 'ltc', 'all')
-print params
-
-"""
-		
-"""
-account = login.Jubi('3wq19-u2j4f-hvtjm-4pi1g-6ezde-nbrvk-eyh5y','Z!1q7-C,(kv-Ju36v-Fk]DQ-ea!*$-Kt*6E-{.C{b')
-data = account.get_params()
-print(data)
-print("\n\n")
-print(data['key']+"\n\n")
-
-resp = requests.post(url='https://www.jubi.com/api/v1/balance/',data=data).json()
-print(resp)
-print "resp['uid']:", resp['uid']
-
-"""
-
-
-
 
 
 
